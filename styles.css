@@ -3,4 +3,11 @@ h1{
 	text-align: center;
 }
 
-p{ color:red;}
+p{ 
+	background-color:red;
+	width: 1000px;
+	height:100px;
+	text-align:center;
+	margin:100px;
+	padding: 30px;
+}
