@@ -3,10 +3,19 @@
 	<head>
 		<title>My Webpage ! </title>
 	<style>
-		input[type=text]{background-color:red}
-		input[type=number]{background-color:blue}
-		input[type=password]{background-color:grey}
+		input[type=text]{background-color:red;}
+		input[type=number]{background-color:blue;}
+		input[type=password]{background-color:grey;}
+		
+		button {
+			width: 200px; height: 50px; font-size: 24px;
+			background-color:green;
+			}
+		button:hover {
+			background-color:orange;
+			}
 	</style>
+
 	<head>
 	<body>
 	   <form>
@@ -19,12 +28,12 @@
 		Age: 
 		<input name="name" type ="Number" placeholder="Age">
 	         </div>
-
+		<p> </p>
 		<div>
 		     Password:
 		     <input name="name" type ="password" placeholder="Password">
 		</div>
-
+		<p> </p>
 	       	<div>
 			Favorite color?
 			<input name="color" type ="radio" value="red"> Red
@@ -33,6 +42,7 @@
 			<input name="color" type ="radio" value="yellow"> Yellow
 			<input name="color" type ="radio" value="amber"> Amber
 	                </div>
+		<p> </p>
 	        <div>
 		Country: 
 		<input name="country" list ="countries" placeholder="Country">
@@ -47,6 +57,8 @@
 		       <option value="Other"> 
 		</datalist>
 	       </div>
+		<p> </p>
+		<button> Clik me! </button>
 	</form>	
 	</body>
 </html>
